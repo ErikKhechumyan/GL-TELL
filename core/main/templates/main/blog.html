@@ -1,0 +1,38 @@
+{% extends 'base.html' %}
+{% block content %}
+  <!-- blog section -->
+
+  <section class="blog_section layout_padding">
+    <div class="container">
+      <div class="heading_container">
+        <h2>
+          БЛОГ
+        </h2>
+      </div>
+      <div class="row" style="text-align: center;">
+        <div class="col-md-6" style="text-align: center;">
+          <div class="box" style="text-align: center;">
+            <div class="img-box" style="text-align: center;">
+              <img src="images/b1.jpg" alt="">
+              <h4 class="blog_date" style="text-align: center;">
+                GL-TELL
+              </h4>
+            </div>
+            <div class="detail-box" style="text-align: center;">
+              <h5>
+                ПРИВЕДИ ДРУГА И ПОЛУЧИ ДОПОЛНИТЕЛЬНЫЙ ЗАРАБОТОК!
+              </h5>
+              <p>
+                Проходит акция "Приведи друга", предоставляющая возможность заработать дополнительные средства за каждого нового сотрудника. За каждого приведенного друга вы получаете доплату в размере 5000 рублей. Акция действует периодически на основании потребности в операторах.Вырвитесь вперед в борьбе с конкурентами благодаря нашим инновационным бизнес-решениям!              </p>
+              <a href="{% url 'Shop' %}">
+                СВЯЖИТЕСЬ С НАМИ
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- end blog section -->
+{% endblock %}
